@@ -1,0 +1,30 @@
+.images{
+    width: 75%;
+    margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+  
+   gap: 10px;
+
+}
+img{
+  width: 150px;
+  margin: auto;
+}
+@media (max-width : 767px){
+    .images{
+     
+      display: grid;
+      grid-template-rows: repeat(3,1fr);
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+    }
+    img{
+      width: 80px;
+      margin: auto;
+     
+    }
+}
+.images div{
+margin-top: 50px;
+}

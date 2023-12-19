@@ -1,0 +1,26 @@
+.about{
+    width: 70%;
+     margin:auto
+}
+.itself{
+    margin-top: 50px;
+}
+.about h2{
+    color: rgb(151, 123, 88);
+}
+@media (max-width : 767px){
+    .about{
+        width: 70%;
+         margin:auto
+    }
+    .itself{
+        margin-top: 50px;
+    }
+    .about hr{
+        width: 200px;
+        margin: auto;
+    }
+    .about h2{
+        font-size: 15px;
+    }
+}
