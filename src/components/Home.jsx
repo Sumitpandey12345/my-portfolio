@@ -11,7 +11,7 @@ export const Home = () => {
     }
   },[])
   const handleClick = ()=>{
-    open("https://drive.google.com/file/d/1-fnNVwuiV1aAuKo1IjeYEYHajZGbfLIA/view?usp=drive_link")
+    open("https://drive.google.com/file/d/1AX177k6VQG4dtu7_IQwxg2c3WI3Fr-71/view?usp=sharing")
   }
   return (
     <div className='homeContainer' name='home' id='home'>
