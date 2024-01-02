@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import "./Home.css"
-import Image from "../assets/My_image.jpg"
+import Image from "../assets/image.jpg"
 import resume from "../assets/Sumit-Kumar-Pandey-Resume.pdf"
 
 export const Home = () => {
